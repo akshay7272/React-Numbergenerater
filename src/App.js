@@ -1,5 +1,4 @@
 import Numbers from './Component/NumberGenerator';
-import Country from './Component/Country';
 import './App.css';
 
 function App() {
