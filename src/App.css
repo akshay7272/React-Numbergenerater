@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -20,19 +15,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto ;
+ padding: 10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.list {
+  list-style-type: none;
+  border:1px solid black;
+  padding: 30px;
+}
+
+.grid{
+ 
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid gainsboro;
+  color: blanchedalmond;
+}
+.Country {
+  background-color: dimgrey;
+}
+section{
+  width: 50%;
 }
